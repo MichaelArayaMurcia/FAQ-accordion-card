@@ -1,0 +1,33 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom, #B068E9, #6463E7);
+}
+
+.container {
+    display: flex;
+    height: 95vh;
+    align-items: center;
+    justify-content: center;
+    /* border: solid red; */
+}
+
+.cardContainer {
+    height: 60%;
+    width: 60%;
+    background-color: white;
+    /* border: solid green; */
+    border-radius: 23px;
+    display: flex;
+    padding: 30px;
+}
+
+.cardContainer-leftBox {
+    width: 100%;
+}
+
+.cardContainer-rightBox {
+    width: 100%;
+}
